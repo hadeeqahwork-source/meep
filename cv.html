@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Hadeeqah CV</title>
+<style>
+@page { size: A4; margin: 0; }
+:root { --yellow:#fff1b0; --soft:#fffbe6; --salmon:#fa9a8a; --deep:#b8442f; --ink:#3a2421; }
+* { box-sizing:border-box; margin:0; }
+body { font-family:"Hero New","Hero","Poppins",sans-serif; color:var(--ink); font-size:9.5pt; line-height:1.5; width:210mm; height:296mm; overflow:hidden; display:flex; flex-direction:column; }
+a { color:inherit; text-decoration:none; }
+header { background:var(--yellow); padding:14mm 16mm 9mm; border-bottom:4px solid var(--salmon); }
+h1 { font-size:28pt; font-weight:600; line-height:1.1; }
+.role { color:var(--deep); font-weight:600; font-size:12pt; margin-top:1mm; }
+.contact { margin-top:4mm; display:flex; gap:7mm; font-size:9pt; font-weight:500; }
+.body { flex:1; display:grid; grid-template-columns:1fr 58mm; gap:10mm; padding:9mm 16mm 0; }
+h2 { font-size:10.5pt; font-weight:600; padding-bottom:1.5mm; border-bottom:2px solid var(--salmon); margin-bottom:3mm; }
+section { margin-bottom:6mm; }
+.job { margin-bottom:4mm; }
+.job h3 { font-size:10pt; font-weight:600; }
+.job .meta { color:var(--deep); font-size:8.5pt; font-weight:500; }
+ul { padding-left:4.5mm; margin-top:1mm; } li { margin-bottom:.8mm; }
+.side { background:var(--soft); margin:-9mm -16mm 0 0; padding:9mm 10mm 9mm 8mm; }
+.chips { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:1.5mm; }
+.chips li { background:var(--yellow); border-radius:10mm; padding:.6mm 3mm; font-size:8.5pt; margin:0; }
+.stat { margin-bottom:3mm; } .stat b { display:block; font-size:15pt; font-weight:600; }
+</style></head>
+<body>
+<header>
+  <h1>Hadeeqah</h1>
+  <p class="role">Financial Analyst</p>
+  <p class="contact"><a href="mailto:hello@example.com">hello@example.com</a><a href="https://www.linkedin.com/in/nurhadeeqah/">linkedin.com/in/nurhadeeqah</a></p>
+</header>
+<div class="body">
+  <div>
+    <section><h2>Profile</h2>
+      <p>Financial analyst with five years of experience in budgeting, forecasting and investment research. I turn complex data into clear recommendations for senior management and clients.</p></section>
+    <section><h2>Experience</h2>
+      <div class="job"><h3>Financial Analyst, Company Name</h3><p class="meta">2023 to present</p>
+        <ul><li>Own the monthly forecast and variance reporting for three business units.</li>
+        <li>Built a 12-month rolling cash flow forecast that removed surprise shortfalls across 14 outlets.</li>
+        <li>Present findings and recommendations to senior management each quarter.</li></ul></div>
+      <div class="job"><h3>Junior Analyst, Company Name</h3><p class="meta">2021 to 2023</p>
+        <ul><li>Prepared annual budgets and supported external audits.</li>
+        <li>Automated recurring reports, saving the team about 10 hours a week.</li></ul></div></section>
+    <section><h2>Selected projects</h2>
+      <div class="job"><h3>Equity research: renewable energy</h3>
+        <p>Valued eight listed companies using DCF and comparables; wrote a 20-page report.</p></div>
+      <div class="job"><h3>Personal budgeting toolkit</h3>
+        <p>Spreadsheet system used by 300 first-time investors to plan monthly savings.</p></div></section>
+    <section><h2>Education</h2>
+      <div class="job"><h3>BSc Accounting and Finance, University Name</h3><p class="meta">2017 to 2021</p>
+        <p>Graduated with honours. Led the university investment society.</p></div></section>
+  </div>
+  <aside class="side">
+    <section><h2>Highlights</h2>
+      <div class="stat"><b>RM 120M</b>assets modelled</div>
+      <div class="stat"><b>96%</b>forecast accuracy</div>
+      <div class="stat"><b>40+</b>clients served</div></section>
+    <section><h2>Skills</h2>
+      <ul class="chips"><li>Financial modelling</li><li>Forecasting</li><li>Budgeting</li><li>Equity valuation</li><li>Risk analysis</li><li>Excel</li><li>SQL</li><li>Python</li><li>Power BI</li><li>Reporting</li></ul></section>
+    <section><h2>Languages</h2><p>English<br>Bahasa Malaysia</p></section>
+  </aside>
+</div>
+</body></html>

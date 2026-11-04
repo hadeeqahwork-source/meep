@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Hadeeqah Slides</title>
+<style>
+@page { size:1280px 720px; margin:0; }
+:root { --yellow:#fff1b0; --soft:#fffbe6; --salmon:#fa9a8a; --deep:#b8442f; --ink:#3a2421; }
+* { box-sizing:border-box; margin:0; }
+body { font-family:"Hero New","Hero","Poppins",sans-serif; color:var(--ink); }
+.slide { width:1280px; height:720px; padding:72px 88px; page-break-after:always; position:relative; overflow:hidden; background:#fff; display:flex; flex-direction:column; justify-content:center; }
+.slide:last-child { page-break-after:auto; }
+.slide::after { content:attr(data-n); position:absolute; right:48px; bottom:32px; font-size:16px; color:var(--deep); font-weight:500; }
+h1 { font-size:76px; line-height:1.08; font-weight:600; letter-spacing:-.02em; }
+h2 { font-size:46px; font-weight:600; margin-bottom:40px; letter-spacing:-.01em; }
+h3 { font-size:26px; font-weight:600; margin-bottom:6px; }
+p, li { font-size:24px; line-height:1.55; }
+.role { color:var(--deep); font-size:32px; font-weight:600; margin-top:20px; }
+.title { background:var(--yellow); } .title::before { content:""; position:absolute; right:0; top:0; width:360px; height:720px; background:var(--salmon); }
+.title .links { margin-top:48px; font-size:22px; font-weight:500; }
+.soft { background:var(--soft); } .pink { background:var(--salmon); }
+.cols { display:grid; grid-template-columns:repeat(3,1fr); gap:32px; }
+.card { background:var(--yellow); border-radius:20px; padding:32px; } .card p { font-size:22px; }
+.stats { display:grid; grid-template-columns:repeat(3,1fr); gap:32px; margin-top:44px; }
+.stats b { display:block; font-size:64px; font-weight:600; } .stats span { font-size:22px; }
+.job { border-left:5px solid var(--salmon); padding-left:28px; margin-bottom:34px; } .job .m { color:var(--deep); font-size:20px; font-weight:500; }
+.chips { list-style:none; padding:0; display:flex; flex-wrap:wrap; gap:16px; max-width:1000px; }
+.chips li { background:var(--yellow); border-radius:40px; padding:10px 28px; font-weight:500; }
+a { color:inherit; text-decoration:none; }
+</style></head>
+<body>
+<section class="slide title" data-n="">
+  <h1>Hadeeqah</h1><p class="role">Financial Analyst</p>
+  <p class="links">linkedin.com/in/nurhadeeqah &nbsp;|&nbsp; hello@example.com</p>
+</section>
+
+<section class="slide" data-n="2">
+  <h2>Profile</h2>
+  <p style="max-width:900px">Five years of experience in budgeting, forecasting and investment research. I turn complex data into clear recommendations for senior management and clients.</p>
+  <div class="stats"><div><b>RM 120M</b><span>assets modelled</span></div><div><b>96%</b><span>forecast accuracy</span></div><div><b>40+</b><span>clients served</span></div></div>
+</section>
+
+<section class="slide soft" data-n="3">
+  <h2>Experience</h2>
+  <div class="job"><h3>Financial Analyst, Company Name</h3><p class="m">2023 to present</p><p>Own monthly forecasting and variance reporting for three business units.</p></div>
+  <div class="job"><h3>Junior Analyst, Company Name</h3><p class="m">2021 to 2023</p><p>Prepared budgets and automated reports, saving about 10 hours a week.</p></div>
+  <div class="job"><h3>BSc Accounting and Finance, University Name</h3><p class="m">2017 to 2021</p><p>Graduated with honours. Led the investment society.</p></div>
+</section>
+
+<section class="slide" data-n="4">
+  <h2>Selected projects</h2>
+  <div class="cols">
+    <div class="card"><h3>Cash flow forecast</h3><p>12-month rolling forecast that removed surprise shortfalls across 14 retail outlets.</p></div>
+    <div class="card"><h3>Equity research</h3><p>DCF and comparables valuation of eight renewable energy companies.</p></div>
+    <div class="card"><h3>Budgeting toolkit</h3><p>Spreadsheet system used by 300 first-time investors.</p></div>
+  </div>
+</section>
+
+<section class="slide soft" data-n="5">
+  <h2>Skills</h2>
+  <ul class="chips"><li>Financial modelling</li><li>Forecasting</li><li>Budgeting</li><li>Equity valuation</li><li>Risk analysis</li><li>Excel</li><li>SQL</li><li>Python</li><li>Power BI</li><li>Client reporting</li></ul>
+</section>
+
+<section class="slide pink" data-n="6">
+  <h2>Let's talk numbers</h2>
+  <p>Open to full-time roles and freelance projects.</p>
+  <p style="margin-top:32px;font-weight:600">hello@example.com<br>linkedin.com/in/nurhadeeqah</p>
+</section>
+</body></html>
